@@ -5,13 +5,13 @@ A simple yet powerful **User Management System** that allows users to perform Cr
 ## Project Gallery
 
 ### Screenshot 1
-![Desktop View](screenshots/Desktop-Screen.png)
+![Desktop View](Desktop-Screen.png)
 
 ### Screenshot 2
-![iPad View](screenshots/iPad-Screen.png)
+![iPad View](iPad-Screen.png)
 
 ### Screenshot 3
-![Phone View](screenshots/Phone-Screen.png)
+![Phone View](Phone-Screen.png)
 
 ## 🚀 Features
 * **Create**: Add new users with a name and email.
