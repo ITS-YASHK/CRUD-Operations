@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>User Dashboard</h2>
+        
+        <div class="form-wrapper">
+            <input type="hidden" id="userId">
+            <input type="text" id="userName" placeholder="Enter Name">
+            <input type="email" id="userEmail" placeholder="Enter Email">
+            <button id="submitBtn" onclick="handleFormSubmit()">Add User</button>
+            <button id="cancelBtn" onclick="resetForm()" style="display:none;">Cancel</button>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                    <tbody id="userTableBody">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
